@@ -27,9 +27,9 @@ export default function Index() {
               про 70-е. Ни лишнего, только настоящее.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
-              <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
+              <a href="/menu" className="btn-cta" style={{ background: "var(--primary)", color: "white", textDecoration: "none" }}>
                 Смотреть меню
-              </button>
+              </a>
               <button className="btn-cta" style={{ background: "white" }}>
                 Наш адрес
               </button>
